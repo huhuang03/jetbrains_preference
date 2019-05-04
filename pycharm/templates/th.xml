@@ -1,7 +1,5 @@
 <templateSet group="th">
-  <template name="foo" value="fdiaji439204ji2432j" description="" toReformat="false" toShortenFQNames="true" />
-  <template name="bar" value="fdsafdsa" toReformat="false" toShortenFQNames="true" />
-  <template name="setup" value="#encoding=utf-8&#10;from setuptools import setup, find_packages&#10;&#10;setup(&#10;    name='foo',&#10;    version='1.0.0',&#10;    description='the desc',&#10;    author=&quot;th&quot;,&#10;    packages=find_packages(), install_requires=[],&#10;    entry_points={&#10;        'console_scripts': ['foo=bar:main']&#10;    }&#10;)" toReformat="false" toShortenFQNames="true">
+  <template name="setup" value="from setuptools import setup, find_packages&#10;&#10;setup(&#10;    name='foo',&#10;    version='1.0.0',&#10;    description='the desc',&#10;    author=&quot;th&quot;,&#10;    packages=find_packages(), install_requires=[],&#10;    entry_points={&#10;        'console_scripts': ['foo=bar:main']&#10;    }&#10;)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
